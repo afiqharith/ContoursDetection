@@ -12,6 +12,7 @@ $ python3 app.py
 
 ### Output sample:
 
-| ![thumbnail](/images/output.jpg) |
-| -------------------------------- |
-
+| Binary Image                       | Converted Image                    |
+| ---------------------------------- | ---------------------------------- |
+| ![b-thumbnail](/images/binary.jpg) | ![o-thumbnail](/images/output.jpg) |
+| ---------------------------------- | ---------------------------------- |
