@@ -4,7 +4,7 @@ import os
 FOLDERPATH = 'images/'
 IMAGENAME = 'shape.jpg'
 IMAGEPATH = os.path.join(os.getcwd(), FOLDERPATH, IMAGENAME)
-ORANGE = (0,165,255)
+RED = (0,0,255)
 
 class ContourDetection:
     
@@ -27,7 +27,7 @@ class ContourDetection:
         _, binaryImage = cv2.threshold(grayImage, 200, 255, cv2.THRESH_BINARY_INV)
 
         contours = self.cvtContour(binaryImage)
-        cv2.drawContours(self.image, contours, -1, ORANGE, 4)
+        cv2.drawContours(self.image, contours, -1, RED, 4)
 
         cv2.imshow("YOLO Object Detection", self.image)
         cv2.waitKey(0)

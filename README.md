@@ -12,6 +12,6 @@ $ python3 app.py
 
 ### Output sample:
 
-| Original Image                         | Binary Image                       | Converted Image                    |
+| Original Image                         | Binary Image                       | Contours Detected Image            |
 | -------------------------------------- | ---------------------------------- | ---------------------------------- |
 | ![origin-thumbnail](/images/shape.jpg) | ![b-thumbnail](/images/binary.jpg) | ![o-thumbnail](/images/output.jpg) |
