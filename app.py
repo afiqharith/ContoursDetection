@@ -1,5 +1,6 @@
 import cv2
 import os
+import matplotlib.pyplot as plt
 
 FOLDERPATH = 'images/'
 IMAGENAME = 'shape.jpg'
@@ -21,7 +22,7 @@ class ContourDetection:
         return contours
 
     def main(self):
-        rgbImage = cv2.cvtColor(self.image, cv2.COLOR_BGRA2RGB)
+        rgbImage = cv2.cvtColor(self.image, cv2.COLOR_BGR2RGB)
         grayImage = cv2.cvtColor(rgbImage, cv2.COLOR_RGB2GRAY)
 
         _, binaryImage = cv2.threshold(grayImage, 200, 255, cv2.THRESH_BINARY_INV)
