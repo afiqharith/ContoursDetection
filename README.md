@@ -15,4 +15,3 @@ $ python3 app.py
 | Binary Image                       | Converted Image                    |
 | ---------------------------------- | ---------------------------------- |
 | ![b-thumbnail](/images/binary.jpg) | ![o-thumbnail](/images/output.jpg) |
-| ---------------------------------- | ---------------------------------- |
