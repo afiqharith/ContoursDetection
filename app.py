@@ -26,8 +26,8 @@ class ContourDetection:
 
         _, binaryImage = cv2.threshold(grayImage, 200, 255, cv2.THRESH_BINARY_INV)
 
-        contors = self.cvtContour(binaryImage)
-        cv2.drawContours(self.image, contors, -1, ORANGE, 2)
+        contours = self.cvtContour(binaryImage)
+        cv2.drawContours(self.image, contours, -1, ORANGE, 4)
 
         cv2.imshow("YOLO Object Detection", self.image)
         cv2.waitKey(0)
