@@ -1,7 +1,6 @@
 import cv2
 import os
 
-
 FOLDERPATH = 'images/'
 IMAGENAME = 'shape.jpg'
 IMAGEPATH = os.path.join(os.getcwd(), FOLDERPATH, IMAGENAME)
