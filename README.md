@@ -11,8 +11,8 @@ $ python3 app.py
 **Steps:**
 
 1. Read original image from directory.
-2. Convert image colour from BGR <sup>(OpenCV use BGR format instead of RGB)</sup> to GRAY.
-3. Get image threshold <sup>(binary image)</sup>.
+2. Convert image colour from BGR <sub>(OpenCV use BGR format instead of RGB)</sub> to GRAY.
+3. Get image threshold <sub>(binary image)</sub>.
 4. Get contour from the image.
 5. Draw the contour lines on original image.
 6. Display image.
@@ -21,6 +21,6 @@ $ python3 app.py
 
 ### Output sample:
 
-| Original Image                         | Binary Image                       | Contours Detected Image            |
-| -------------------------------------- | ---------------------------------- | ---------------------------------- |
-| ![origin-thumbnail](/images/shape.jpg) | ![b-thumbnail](/images/binary.jpg) | ![o-thumbnail](/images/output.jpg) |
+| Original Image                         | Gray Image                       | Binary Image                       | Contours Detected Image            |
+| -------------------------------------- | -------------------------------- | ---------------------------------- | ---------------------------------- |
+| ![origin-thumbnail](/images/shape.jpg) | ![g-thumbnail](/images/gray.jpg) | ![b-thumbnail](/images/binary.jpg) | ![o-thumbnail](/images/output.jpg) |
