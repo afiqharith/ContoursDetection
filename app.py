@@ -30,7 +30,7 @@ class ContourDetection:
         contours = self.cvtContour(binaryImage)
         cv2.drawContours(self.image, contours, -1, RED, 4)
 
-        cv2.imshow("YOLO Object Detection", self.image)
+        cv2.imshow("Contour Detection", self.image)
         cv2.waitKey(0)
 
 if __name__ == "__main__":
